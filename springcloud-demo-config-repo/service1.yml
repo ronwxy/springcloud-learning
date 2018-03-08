@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    username: dbuser
+    password: 123456
