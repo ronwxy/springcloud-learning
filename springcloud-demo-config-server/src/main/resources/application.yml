@@ -7,8 +7,8 @@ spring:
       server:
         git:
           uri: https://github.com/ronwxy/springcloud-learning.git
-          searchPaths: springcloud-demo-config-repo  #在子目录中搜索
-          basedir: ${user.home}/config-repo  #指定clone的目录，默认存于临时文件
+          searchPaths: springcloud-demo-config-repo
+          basedir: ${user.home}/config-repo
 server:
   port: 8888
 
